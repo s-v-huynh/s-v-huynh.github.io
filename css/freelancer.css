@@ -503,3 +503,8 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
+.contact{
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+}
