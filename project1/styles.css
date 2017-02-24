@@ -1,0 +1,25 @@
+﻿html, body {
+	height: 100%
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#tags {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#map {
+	height: 70%;
+}
+
+#villeChoisi {
+	font-size: 150%;
+}

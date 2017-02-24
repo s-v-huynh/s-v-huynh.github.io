@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+	<link rel="stylesheet" type="text/css" href="worker.css">
+	<title>Compteur de jetons</title>
+</head>
+<body>
+	<div class="container-fluid"> <!-- Pour creer un conteneur -->
+		<div class = "row" id="box">
+			<br>
+
+			<div class="col-md-8">
+				<div class="form-group">
+					<textarea class="form-control" id="textArea" rows="5"></textarea> <!-- Pour le textarea -->
+				</div>	
+			</div>
+
+			<div class="col-md-4">
+
+				<div class="progress"> <!-- Pour la barre de progression -->
+				  <div id="bar" class="progress-bar progress-bar-striped active" role="progressbar"
+				  aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+				    0%
+				  </div>
+				</div>
+
+				<div class="row">
+
+					<div class="col-md-7"> <!-- Pour les 2 bouttons -->
+						<button id="button1" type="button" class="btn btn-success btn-block" onclick="startWorker()">Compter</button>
+						<button id="button2" type="button" class="btn btn-danger btn-block" onclick="stopWorker()">Annuler</button>
+					</div>
+
+					<div class="col-md-5">
+						<p><output id="result">0</output></p> <!-- Pour l'affichage des jetons -->
+						<p id="jetons">Jetons</p>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</body>
+</html>

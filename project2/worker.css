@@ -1,0 +1,27 @@
+textarea /*Pour pouvoir modifier le textarea verticalement*/
+{
+	resize: vertical;
+}
+
+#box /*Pour fermer le contenu dans une boite*/
+{
+	border: 1px solid black;
+}
+
+#result /*Pour le nombre de jetons*/
+{
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#jetons /*Pour le mot jetons*/
+{
+	font-size: 20px;
+	text-align: center;
+}
+
+#bar
+{
+	width: 0%;
+}
